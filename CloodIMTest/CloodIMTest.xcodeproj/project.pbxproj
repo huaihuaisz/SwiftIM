@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C08EEDB1C438FE200A94A28 /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08EEDA1C438FE200A94A28 /* Inputs.swift */; };
 		3C0C89001C337F8A000ACBF6 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C88FF1C337F8A000ACBF6 /* ConversationViewController.swift */; };
+		3C13EDFB1C3F92B900C3F5CD /* RCAnimatedImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13EDF81C3F92B900C3F5CD /* RCAnimatedImagesView.m */; };
+		3C13EDFC1C3F92B900C3F5CD /* UIView+ViewRecursion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13EDFA1C3F92B900C3F5CD /* UIView+ViewRecursion.m */; };
+		3C13EDFE1C3FB4B900C3F5CD /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C13EDFD1C3FB4B900C3F5CD /* SwiftNotice.swift */; };
+		3C13EE001C3FB89900C3F5CD /* UITextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C13EDFF1C3FB89900C3F5CD /* UITextBox.swift */; };
 		3C3969E71C3A0BBB003495DD /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3969E61C3A0BBB003495DD /* ConversationListViewController.swift */; };
 		3C396A0E1C3A1013003495DD /* Icon_tabbar_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C396A021C3A1012003495DD /* Icon_tabbar_1@2x.png */; };
 		3C396A0F1C3A1013003495DD /* Icon_tabbar_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C396A031C3A1012003495DD /* Icon_tabbar_1@3x.png */; };
@@ -27,10 +32,11 @@
 		3C6FF02B1C32599B00AFE83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6FF02A1C32599B00AFE83B /* Assets.xcassets */; };
 		3C6FF02E1C32599C00AFE83B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6FF02C1C32599C00AFE83B /* LaunchScreen.storyboard */; };
 		3C6FF0361C325F9700AFE83B /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 3C6FF0351C325F9700AFE83B /* PodFile */; };
-		3C704A4B1C3DFA250013DA3C /* RCAnimatedImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C704A4A1C3DFA250013DA3C /* RCAnimatedImagesView.m */; };
 		3C704A4D1C3DFC310013DA3C /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C704A4C1C3DFC310013DA3C /* image1.jpg */; };
 		3C704A4F1C3DFC390013DA3C /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C704A4E1C3DFC390013DA3C /* image2.jpg */; };
 		3C704A511C3DFC420013DA3C /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C704A501C3DFC420013DA3C /* image3.jpg */; };
+		3C704A541C3E2BCF0013DA3C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C704A521C3E2BCF0013DA3C /* Login.storyboard */; };
+		3C704A561C3E2EC50013DA3C /* RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C704A551C3E2EC50013DA3C /* RegisterTableViewController.swift */; };
 		3CE079551C3B6B1300766E3C /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE079531C3B6B1300766E3C /* Contacts.storyboard */; };
 		3CE079581C3B6CC800766E3C /* Kefu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE079561C3B6CC800766E3C /* Kefu.storyboard */; };
 		3CE0795B1C3B6CDD00766E3C /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE079591C3B6CDD00766E3C /* About.storyboard */; };
@@ -42,7 +48,14 @@
 /* Begin PBXFileReference section */
 		004AA0F108F0969F2B4DF7D5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		015C3CBAD6C53AD7A04084B2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3C08EEDA1C438FE200A94A28 /* Inputs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
 		3C0C88FF1C337F8A000ACBF6 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		3C13EDF71C3F92B900C3F5CD /* RCAnimatedImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAnimatedImagesView.h; sourceTree = "<group>"; };
+		3C13EDF81C3F92B900C3F5CD /* RCAnimatedImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCAnimatedImagesView.m; sourceTree = "<group>"; };
+		3C13EDF91C3F92B900C3F5CD /* UIView+ViewRecursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewRecursion.h"; sourceTree = "<group>"; };
+		3C13EDFA1C3F92B900C3F5CD /* UIView+ViewRecursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewRecursion.m"; sourceTree = "<group>"; };
+		3C13EDFD1C3FB4B900C3F5CD /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		3C13EDFF1C3FB89900C3F5CD /* UITextBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextBox.swift; sourceTree = "<group>"; };
 		3C3969E61C3A0BBB003495DD /* ConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
 		3C396A021C3A1012003495DD /* Icon_tabbar_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon_tabbar_1@2x.png"; path = "Images/Tab/Icon_tabbar_1@2x.png"; sourceTree = "<group>"; };
 		3C396A031C3A1012003495DD /* Icon_tabbar_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon_tabbar_1@3x.png"; path = "Images/Tab/Icon_tabbar_1@3x.png"; sourceTree = "<group>"; };
@@ -65,11 +78,11 @@
 		3C6FF02F1C32599C00AFE83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C6FF0351C325F9700AFE83B /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3C6FF0371C326C2000AFE83B /* CloodIMTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloodIMTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		3C704A491C3DFA250013DA3C /* RCAnimatedImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAnimatedImagesView.h; sourceTree = "<group>"; };
-		3C704A4A1C3DFA250013DA3C /* RCAnimatedImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCAnimatedImagesView.m; sourceTree = "<group>"; };
 		3C704A4C1C3DFC310013DA3C /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 		3C704A4E1C3DFC390013DA3C /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
 		3C704A501C3DFC420013DA3C /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		3C704A531C3E2BCF0013DA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		3C704A551C3E2EC50013DA3C /* RegisterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTableViewController.swift; sourceTree = "<group>"; };
 		3CE079541C3B6B1300766E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contacts.storyboard; sourceTree = "<group>"; };
 		3CE079571C3B6CC800766E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Kefu.storyboard; sourceTree = "<group>"; };
 		3CE0795A1C3B6CDD00766E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/About.storyboard; sourceTree = "<group>"; };
@@ -97,6 +110,19 @@
 				015C3CBAD6C53AD7A04084B2 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C13EDF61C3F92B900C3F5CD /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				3C13EDF71C3F92B900C3F5CD /* RCAnimatedImagesView.h */,
+				3C13EDF81C3F92B900C3F5CD /* RCAnimatedImagesView.m */,
+				3C13EDF91C3F92B900C3F5CD /* UIView+ViewRecursion.h */,
+				3C13EDFA1C3F92B900C3F5CD /* UIView+ViewRecursion.m */,
+				3C13EDFD1C3FB4B900C3F5CD /* SwiftNotice.swift */,
+				3C13EDFF1C3FB89900C3F5CD /* UITextBox.swift */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 		3C396A001C3A0FDB003495DD /* Images */ = {
@@ -151,33 +177,27 @@
 		3C6FF0221C32599B00AFE83B /* CloodIMTest */ = {
 			isa = PBXGroup;
 			children = (
+				3C13EDF61C3F92B900C3F5CD /* lib */,
 				3C6FF0231C32599B00AFE83B /* AppDelegate.swift */,
 				3C6FF0271C32599B00AFE83B /* Main.storyboard */,
 				3CFB99381C3CF30D00E0513E /* RoundImageView.swift */,
 				3CFB99361C3CE3B700E0513E /* LoginViewController.swift */,
+				3C704A551C3E2EC50013DA3C /* RegisterTableViewController.swift */,
+				3C08EEDA1C438FE200A94A28 /* Inputs.swift */,
+				3C3969E61C3A0BBB003495DD /* ConversationListViewController.swift */,
+				3C0C88FF1C337F8A000ACBF6 /* ConversationViewController.swift */,
+				3C704A521C3E2BCF0013DA3C /* Login.storyboard */,
 				3CE079591C3B6CDD00766E3C /* About.storyboard */,
 				3CE079561C3B6CC800766E3C /* Kefu.storyboard */,
 				3CE079531C3B6B1300766E3C /* Contacts.storyboard */,
 				3C396A1A1C3A3B8E003495DD /* Conversation.storyboard */,
-				3C3969E61C3A0BBB003495DD /* ConversationListViewController.swift */,
-				3C0C88FF1C337F8A000ACBF6 /* ConversationViewController.swift */,
 				3C6FF02A1C32599B00AFE83B /* Assets.xcassets */,
-				3C704A481C3DFA100013DA3C /* lib */,
 				3C396A001C3A0FDB003495DD /* Images */,
 				3C6FF02C1C32599C00AFE83B /* LaunchScreen.storyboard */,
 				3C6FF02F1C32599C00AFE83B /* Info.plist */,
 				3C6FF0371C326C2000AFE83B /* CloodIMTest-Bridging-Header.h */,
 			);
 			path = CloodIMTest;
-			sourceTree = "<group>";
-		};
-		3C704A481C3DFA100013DA3C /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				3C704A491C3DFA250013DA3C /* RCAnimatedImagesView.h */,
-				3C704A4A1C3DFA250013DA3C /* RCAnimatedImagesView.m */,
-			);
-			name = lib;
 			sourceTree = "<group>";
 		};
 		3D38FD1F32129AFA79237B1B /* Frameworks */ = {
@@ -257,6 +277,7 @@
 				3C704A4F1C3DFC390013DA3C /* image2.jpg in Resources */,
 				3C6FF02E1C32599C00AFE83B /* LaunchScreen.storyboard in Resources */,
 				3CE0795B1C3B6CDD00766E3C /* About.storyboard in Resources */,
+				3C704A541C3E2BCF0013DA3C /* Login.storyboard in Resources */,
 				3C396A171C3A1013003495DD /* Icon_tabbar_on_2@3x.png in Resources */,
 				3C396A131C3A1013003495DD /* Icon_tabbar_3@3x.png in Resources */,
 				3C396A1C1C3A3B8F003495DD /* Conversation.storyboard in Resources */,
@@ -330,11 +351,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C13EE001C3FB89900C3F5CD /* UITextBox.swift in Sources */,
 				3CFB99391C3CF30D00E0513E /* RoundImageView.swift in Sources */,
 				3C3969E71C3A0BBB003495DD /* ConversationListViewController.swift in Sources */,
-				3C704A4B1C3DFA250013DA3C /* RCAnimatedImagesView.m in Sources */,
+				3C13EDFC1C3F92B900C3F5CD /* UIView+ViewRecursion.m in Sources */,
+				3C704A561C3E2EC50013DA3C /* RegisterTableViewController.swift in Sources */,
 				3C6FF0241C32599B00AFE83B /* AppDelegate.swift in Sources */,
 				3CFB99371C3CE3B700E0513E /* LoginViewController.swift in Sources */,
+				3C13EDFE1C3FB4B900C3F5CD /* SwiftNotice.swift in Sources */,
+				3C13EDFB1C3F92B900C3F5CD /* RCAnimatedImagesView.m in Sources */,
+				3C08EEDB1C438FE200A94A28 /* Inputs.swift in Sources */,
 				3C0C89001C337F8A000ACBF6 /* ConversationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +390,14 @@
 				3C6FF02D1C32599C00AFE83B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3C704A521C3E2BCF0013DA3C /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C704A531C3E2BCF0013DA3C /* Base */,
+			);
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		3CE079531C3B6B1300766E3C /* Contacts.storyboard */ = {

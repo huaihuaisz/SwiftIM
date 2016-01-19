@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VMb-Dq-uot">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
         <scene sceneID="LFg-ic-1eV">
             <objects>
-                <tabBarController id="Ddr-SP-hDe" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="UITabBarController-Ddr-SP-hDe" id="Ddr-SP-hDe" sceneMemberID="viewController">
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="QPb-Y3-U9o">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -68,165 +66,5 @@
             </objects>
             <point key="canvasLocation" x="-183.5" y="-203"/>
         </scene>
-        <!--Login View Controller-->
-        <scene sceneID="Pju-jA-MRw">
-            <objects>
-                <viewController id="VMb-Dq-uot" customClass="LoginViewController" customModule="CloodIMTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="SYq-o2-qya"/>
-                        <viewControllerLayoutGuide type="bottom" id="x2W-A4-vL1"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7gW-6w-LgZ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y5f-eY-oes" userLabel="Wallpaper container view" customClass="RCAnimatedImagesView">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon_tabbar_on_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="feH-66-Alb" customClass="RoundImageView" customModule="CloodIMTest" customModuleProvider="target">
-                                <rect key="frame" x="240" y="20" width="120" height="120"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="8Mq-Uf-y4a"/>
-                                    <constraint firstAttribute="height" constant="120" id="IwE-Od-ShR"/>
-                                    <constraint firstAttribute="height" constant="120" id="aVo-I7-5gX"/>
-                                    <constraint firstAttribute="width" constant="120" id="axB-jN-aRy"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="60"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.089773436609999993" green="1" blue="0.95657604549999997" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="8Mq-Uf-y4a"/>
-                                        <exclude reference="IwE-Od-ShR"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="auz-70-2FC" userLabel="Login Stack View">
-                                <rect key="frame" x="0.0" y="180" width="600" height="30"/>
-                                <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户用" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JC0-ue-y3d">
-                                        <rect key="frame" x="0.0" y="0.0" width="501" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I8x-Rh-jkI">
-                                        <rect key="frame" x="511" y="0.0" width="49" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6SI-Pa-JE8">
-                                        <rect key="frame" x="570" y="0.0" width="30" height="30"/>
-                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="登录">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d31-P4-Q96">
-                                <rect key="frame" x="0.0" y="530" width="600" height="30"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlV-TU-bqP">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="30"/>
-                                        <state key="normal" title="新用户"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Th-go-1xT">
-                                        <rect key="frame" x="300" y="0.0" width="300" height="30"/>
-                                        <state key="normal" title="忘记密码"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sc0-s3-bAW">
-                                <rect key="frame" x="400" y="235" width="180" height="31"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自动登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8y-7V-j9R">
-                                        <rect key="frame" x="0.0" y="5" width="68" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YWp-Uz-vC6">
-                                        <rect key="frame" x="131" y="0.0" width="51" height="31"/>
-                                    </switch>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="Y5f-eY-oes" secondAttribute="bottom" id="5fx-y6-lEl"/>
-                            <constraint firstItem="auz-70-2FC" firstAttribute="top" secondItem="feH-66-Alb" secondAttribute="bottom" constant="40" id="5zc-vg-UhJ"/>
-                            <constraint firstItem="feH-66-Alb" firstAttribute="centerX" secondItem="auz-70-2FC" secondAttribute="centerX" id="82g-iN-X46"/>
-                            <constraint firstItem="feH-66-Alb" firstAttribute="leading" secondItem="Y5f-eY-oes" secondAttribute="trailing" id="FLF-gk-9e8"/>
-                            <constraint firstItem="d31-P4-Q96" firstAttribute="leading" secondItem="7gW-6w-LgZ" secondAttribute="leading" id="HE7-90-6b6"/>
-                            <constraint firstItem="auz-70-2FC" firstAttribute="top" secondItem="Y5f-eY-oes" secondAttribute="bottom" id="Lys-Fq-0cW"/>
-                            <constraint firstItem="x2W-A4-vL1" firstAttribute="top" secondItem="d31-P4-Q96" secondAttribute="bottom" constant="40" id="M2u-dV-RpZ"/>
-                            <constraint firstItem="feH-66-Alb" firstAttribute="leading" secondItem="Y5f-eY-oes" secondAttribute="trailing" id="Mq7-Tu-Nl5"/>
-                            <constraint firstItem="feH-66-Alb" firstAttribute="top" secondItem="SYq-o2-qya" secondAttribute="bottom" id="TRN-Ll-9AT"/>
-                            <constraint firstItem="feH-66-Alb" firstAttribute="top" secondItem="SYq-o2-qya" secondAttribute="bottom" id="Tv0-7q-lHj"/>
-                            <constraint firstAttribute="trailing" secondItem="d31-P4-Q96" secondAttribute="trailing" id="VI4-6p-r1I"/>
-                            <constraint firstItem="x2W-A4-vL1" firstAttribute="top" secondItem="Y5f-eY-oes" secondAttribute="bottom" id="YlK-Io-Ryq"/>
-                            <constraint firstItem="d31-P4-Q96" firstAttribute="leading" secondItem="7gW-6w-LgZ" secondAttribute="leadingMargin" id="Z0l-rm-3lr"/>
-                            <constraint firstItem="Y5f-eY-oes" firstAttribute="leading" secondItem="7gW-6w-LgZ" secondAttribute="leading" id="cQR-69-aTZ"/>
-                            <constraint firstItem="Y5f-eY-oes" firstAttribute="top" secondItem="7gW-6w-LgZ" secondAttribute="top" id="cvF-VB-st6"/>
-                            <constraint firstItem="feH-66-Alb" firstAttribute="leading" secondItem="Y5f-eY-oes" secondAttribute="trailing" id="fGi-TP-wab"/>
-                            <constraint firstAttribute="trailing" secondItem="sc0-s3-bAW" secondAttribute="trailing" constant="20" id="kGq-zg-QqA"/>
-                            <constraint firstAttribute="trailing" secondItem="Y5f-eY-oes" secondAttribute="trailing" id="l2P-Dp-vOy"/>
-                            <constraint firstAttribute="trailing" secondItem="Y5f-eY-oes" secondAttribute="trailing" id="lbq-fF-NZT"/>
-                            <constraint firstItem="sc0-s3-bAW" firstAttribute="width" secondItem="7gW-6w-LgZ" secondAttribute="width" multiplier="0.3" id="ljE-Nt-nCN"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="d31-P4-Q96" secondAttribute="trailing" id="ojT-k1-JaV"/>
-                            <constraint firstItem="auz-70-2FC" firstAttribute="top" secondItem="Y5f-eY-oes" secondAttribute="bottom" id="qJ8-UE-Z7z"/>
-                            <constraint firstItem="Y5f-eY-oes" firstAttribute="top" secondItem="SYq-o2-qya" secondAttribute="bottom" constant="-20" id="taa-ZZ-F2e"/>
-                            <constraint firstItem="feH-66-Alb" firstAttribute="centerX" secondItem="7gW-6w-LgZ" secondAttribute="centerX" id="tq1-c2-2Eq"/>
-                            <constraint firstItem="auz-70-2FC" firstAttribute="leading" secondItem="7gW-6w-LgZ" secondAttribute="leading" id="vHD-g8-7lB"/>
-                            <constraint firstItem="auz-70-2FC" firstAttribute="top" secondItem="Y5f-eY-oes" secondAttribute="bottom" id="wkN-mz-Gze"/>
-                            <constraint firstItem="sc0-s3-bAW" firstAttribute="top" secondItem="auz-70-2FC" secondAttribute="bottom" constant="25" id="wwk-ID-gF9"/>
-                            <constraint firstAttribute="trailing" secondItem="auz-70-2FC" secondAttribute="trailing" id="yiY-TX-uza"/>
-                            <constraint firstItem="auz-70-2FC" firstAttribute="top" secondItem="feH-66-Alb" secondAttribute="bottom" constant="40" id="zpT-p4-FeL"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="l2P-Dp-vOy"/>
-                                <exclude reference="taa-ZZ-F2e"/>
-                                <exclude reference="5zc-vg-UhJ"/>
-                                <exclude reference="Lys-Fq-0cW"/>
-                                <exclude reference="qJ8-UE-Z7z"/>
-                                <exclude reference="wkN-mz-Gze"/>
-                                <exclude reference="FLF-gk-9e8"/>
-                                <exclude reference="Mq7-Tu-Nl5"/>
-                                <exclude reference="Tv0-7q-lHj"/>
-                                <exclude reference="fGi-TP-wab"/>
-                                <exclude reference="tq1-c2-2Eq"/>
-                                <exclude reference="Z0l-rm-3lr"/>
-                                <exclude reference="ojT-k1-JaV"/>
-                                <exclude reference="YlK-Io-Ryq"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <connections>
-                        <outlet property="loginStackView" destination="auz-70-2FC" id="Bdd-Q1-api"/>
-                        <outlet property="wallPaperImagesView" destination="Y5f-eY-oes" id="dxB-WY-2SG"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iHk-cM-BTC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1488" y="-451"/>
-        </scene>
     </scenes>
-    <resources>
-        <image name="Icon_tabbar_on_3.png" width="24" height="24"/>
-    </resources>
 </document>

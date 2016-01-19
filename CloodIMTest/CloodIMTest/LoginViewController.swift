@@ -32,7 +32,16 @@ class LoginViewController: UIViewController, RCAnimatedImagesViewDelegate {
 
         self.wallPaperImagesView.delegate = self
         
+        
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
         self.wallPaperImagesView.startAnimating()
+
+        self.navigationController?.navigationBarHidden = true
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -42,10 +51,16 @@ class LoginViewController: UIViewController, RCAnimatedImagesViewDelegate {
             ) { () -> Void in
             
             self.loginStackView.axis = UILayoutConstraintAxis.Vertical
-
+            
         }
     }
 
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        self.wallPaperImagesView.stopAnimating()
+
+    }
     func animatedImagesNumberOfImages(animatedImagesView: RCAnimatedImagesView!) -> UInt {
         return 3
     }

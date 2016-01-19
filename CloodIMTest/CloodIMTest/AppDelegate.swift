@@ -65,6 +65,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RCIMUserInfoDataSource {
                 //设置用户信息提供者为自己 appdelegate
         RCIM.sharedRCIM().userInfoDataSource = self
         
+        //获得leanCloud授权
+        AVOSCloud.setApplicationId("DsveGUWFlHNzgoi33hARCy14-gzGzoHsz", clientKey: "hjoU0A2I7N8h0FT6Ys2pyBen")
+    
                 return true
     }
 
